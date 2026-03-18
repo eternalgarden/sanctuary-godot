@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://blpgcnyrrcb42"]
+
+[ext_resource type="PackedScene" uid="uid://drmenpmf8f5pd" path="res://sandbox/godot_test_scene.blend" id="1_kpvwd"]
+
+[node name="godot_test_scene" unique_id=206129347 instance=ExtResource("1_kpvwd")]
+
+[node name="Light" parent="." index="1" unique_id=737367590]
+light_color = Color(0.9107734, 0.70871943, 0.3737947, 1)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="5" unique_id=210396831]
