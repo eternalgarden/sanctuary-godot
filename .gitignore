@@ -1,3 +1,8 @@
+# 🐖 Custom .gitignore
+
+*.blend1
+
+# 🐖 DEFAULT GODOT .gitignore
 # Godot 4+ specific ignores
 .godot/
 .nomedia
