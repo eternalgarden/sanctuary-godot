@@ -1,5 +1,10 @@
 # 🐖 Custom .gitignore
 
+# 🐖 Directories
+sanctuary/sandbox/
+**/node_modules/
+
+# 🐖 Blender stuff
 *.blend1
 
 # 🐖 DEFAULT GODOT .gitignore
@@ -7,20 +12,24 @@
 .godot/
 .nomedia
 
-# Godot-specific ignores
+# 🐖 Godot-specific ignores
 .import/
 export.cfg
 export_credentials.cfg
 
-# Imported translations (automatically generated from CSV files)
+# 🐖 Imported translations (automatically generated from CSV files)
 *.translation
 
-# Mono-specific ignores
+# 🐖 Mono-specific ignores
 .mono/
 data_*/
 mono_crash.*.json
 
-# Obsidian ignore
+# 🐖 Python tooling
+py-tools/.venv/
+py-tools/__pycache__/
+
+# 🐖 Obsidian ignore
 # Ignore volatile UI-related state
 .obsidian/workspace.json
 .obsidian/app.json
