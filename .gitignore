@@ -31,7 +31,7 @@ py-tools/__pycache__/
 
 # 🐖 Obsidian ignore
 # Ignore volatile UI-related state
-.obsidian/workspace.json
-.obsidian/app.json
-.DS_Store
-Thumbs.db
+**/.obsidian/workspace.json
+**/.obsidian/app.json
+**/.DS_Store
+**/Thumbs.db
